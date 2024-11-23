@@ -1,0 +1,55 @@
+/* --- Searchbox --- */
+.form-control {
+    border-radius: 0px !important;
+}
+
+/* --- Kontaktformular --- */
+.form-builder-checkbox-item label::before, .form-builder-radio-item label::before, .sppb-addon-form-builder .sppb-form-check-label::before {
+  border: 2px solid #e30613 !important;
+}
+.form-builder-checkbox-item input:checked+label::before, .form-builder-radio-item input:checked+label::before, .sppb-addon-form-builder .sppb-form-check-input:checked+label::before {
+  background: #e30613 !important;
+}
+
+/* --- SEO Content --- */
+.mehrwert {
+    display: none !important;
+}
+
+
+/* CSS für Mobilgeräte */
+@media only screen and (max-width: 480px) {
+  /* --- Footer 3x Quick Link --- */
+  .sppb-row-column {
+    margin-bottom: 60px;
+  }
+  
+  /* Stellen Sie sicher, dass 'sp-footer1' die korrekte ID ist und im HTML-Dokument existiert. */
+  div#sp-footer1 {
+    text-align: center;
+  }
+  
+  /* --- Referenzbilder Startseite --- */
+  .sppb-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sppb-col-sm-3 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sppb-img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
